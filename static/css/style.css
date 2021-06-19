@@ -1,0 +1,75 @@
+* {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+.header {
+    background-image: url(/assets/backgrounds/h_img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40em;
+    min-height: 100%;
+    text-align: center;
+    color: #fff;
+    font-stretch: extra-expanded;
+    padding: 10em;
+}
+.mouse {
+    padding-top: 10em;
+}
+
+.header h1 {
+    font-size: 2em;
+}
+.header p {
+    font-size: 1em;
+    line-height: .9em;
+}
+
+.about-us {
+    text-align: center;
+    padding: 10em 0;
+}
+
+.services {
+    padding: 10em 2em;
+    text-align: center;
+    color: #fff;
+    background-image: url(/assets/backgrounds/s_image.jpg);
+    width: 100%;
+    /* min-width: 100%; */
+    height: auto;
+    background-position: center;
+    background-size: cover;
+}
+
+.what-we-do {
+    text-align: center;
+    padding: 10em 0;
+}
+
+.d-flex {
+    padding: 3em;
+}
+@media (min-width: 992px) {
+        .header {
+          height: 66.9em;
+          max-height: 100%;
+          line-height: 8em;
+          background-position: fixed;
+        }
+        .logo {
+            padding: 5em;
+        }
+        .mouse {
+            padding-top: 15em;
+        }
+        .services {
+            background-image: url(/assets/backgrounds/s_image.jpg);
+            background-position: center;
+            background-size: cover;
+            width: 100%;
+        }
+      }
+
