@@ -27,6 +27,10 @@
     line-height: .9em;
 }
 
+h2 {
+    text-align: center;
+}
+
 .about-us {
     text-align: center;
     padding: 10em 0;
@@ -57,19 +61,29 @@
     text-align: center;
 }
 
-.formspree :focus {
-    box-shadow: white 10px;
+.formspree {
+    margin: 5em;
+    padding: 5em;
+    background-image: url(/assets/backgrounds/c_image.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.cont-form {
+    padding-top: 3em;
+    margin: 0;
 }
 
-.formspree ::placeholder {
+::placeholder {
     color: white;
 }
+
 #name, #email{
     color: white;
     background: none;
 }
 #text-area {
     background: none;
+    max-width: 100%;
 }
 @media (min-width: 992px) {
         .header {
