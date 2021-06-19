@@ -52,6 +52,10 @@
 .d-flex {
     padding: 3em;
 }
+
+.portfolio {
+    text-align: center;
+}
 @media (min-width: 992px) {
         .header {
           height: 66.9em;
