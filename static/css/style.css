@@ -56,6 +56,21 @@
 .portfolio {
     text-align: center;
 }
+
+.formspree :focus {
+    box-shadow: white 10px;
+}
+
+.formspree ::placeholder {
+    color: white;
+}
+#name, #email{
+    color: white;
+    background: none;
+}
+#text-area {
+    background: none;
+}
 @media (min-width: 992px) {
         .header {
           height: 66.9em;
