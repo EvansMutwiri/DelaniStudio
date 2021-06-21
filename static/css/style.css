@@ -4,7 +4,9 @@
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
 }
-
+body {
+    overflow-x: hidden;
+}
 .header {
     background-image: url(../../assets/backgrounds/h_img.jpg);
     background-color: black;
@@ -45,7 +47,7 @@ h2 {
 
 .about-us {
     text-align: center;
-    padding: 10em 0;
+    padding: 5em 0;
 }
 
 .services {
@@ -62,7 +64,7 @@ h2 {
 
 .what-we-do {
     text-align: center;
-    padding: 10em 0;
+    padding: 5em 0;
 }
 
 .d-flex {
