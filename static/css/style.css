@@ -76,8 +76,8 @@ h2 {
 }
 
 .formspree {
-    margin: 5em;
-    padding: 5em;
+    /* margin: 5em; */
+    /* padding: 5em; */
     background-image: url(../../assets/backgrounds/c_image.jpg);
     background-position: center;
     background-size: cover;
@@ -100,12 +100,12 @@ h2 {
 #name, #email{
     color: white;
     background: rgba(0, 0, 0, 0.363);
-    border: 2px solid #fff;
+    border: 1px solid #fff;
 }
 #text-area {
     background: rgba(0, 0, 0, 0.363);
     width: 100%;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     /* width: auto; */
 }
 
@@ -116,6 +116,9 @@ h2 {
     flex-wrap: wrap;
     flex-direction: row;
     height: 10vh;
+}
+.media{
+    padding: .1em;
 }
 @media (min-width: 992px) {
         .header {

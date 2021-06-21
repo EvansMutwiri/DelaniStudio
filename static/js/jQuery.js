@@ -2,7 +2,7 @@ $(document).ready(function () {
   $(".design-description").fadeOut(300);
   $(".design-pop").on("click", function () {
     $(".design-description").fadeIn(300);
-    $(".design-pop").toggle();
+    $(".design-pop").slideToggle();
   });
   $(".design-description").on("click", function () {
     $(".design-pop").show().fadeIn(300);
